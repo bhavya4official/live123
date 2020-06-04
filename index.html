@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live123</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>HOWARD</h1>
+  <ul>
+    <li><a href="#HOME">HOME</a></li>
+    <li><a href="#CONTACT">CONTACT</a></li>
+    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">HOST MEETING</a>
+    <div class="dropdown-content">
+      <a href="#">Video On</a>
+      <a href="#">Video Off</a>
+      <a href="#">Audio On</a>
+      <a href="#">Audio Off</a>
+      <a href="#">Screen Share</a>
+    </div>
+    </li>
+    <li><a href="#RESOURCES">RESOURCES</a></li>
+
+    <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul>
+  </header>
+
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+  <footer>
+    <p>About / Contact Us<br>
+    <a href="mailto:bhavya4official@gmail.com">bhavya4official@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
